@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Signup Page</title>
   <link rel="stylesheet" href="signup-style.css">
-  <script src="https://apis.google.com/js/platform.js" async defer></script>
-  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+  <!-- <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com"> -->
 </head>
 
 <body>
@@ -49,9 +49,9 @@
     </div>
 
     <!-- Google Sign-In -->
-    <div class="google-signin">
-      <div class="g-signin2" data-onsuccess="onSignIn"></div>
-    </div>
+    <button type="button" id="login-with-google-btn">
+      Sign in with Google
+    </button>
   </div>
   <script src="signup-script.js"></script>
 </body>
